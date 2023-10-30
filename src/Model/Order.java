@@ -16,13 +16,14 @@ public class Order {
         this.orderStatus = "";
     }
 
-    public ArrayList<Order> Order(String orderType, String paymentType, int total, String orderStatus) {
+    public Order(String orderType, String paymentType, int total, String orderStatus) {
         orderNumber++;
+        this.orderNumber = orderNumber;
         this.orderType = orderType;
         this.paymentType = paymentType;
         this.total = total;
         this.orderStatus = orderStatus;
     }
 
-    public
+    ArrayList<Order> orderList = new ArrayList<Order>();
 }

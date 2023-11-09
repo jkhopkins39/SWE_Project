@@ -1,3 +1,3 @@
 # SWE_Project
 
-This is a project fo SWE :D
+This is the repository for the Mom and Pop Website in SWE 3313
